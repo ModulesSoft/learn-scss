@@ -11,10 +11,24 @@ body {
   padding: 0;
   font-size: 1.8rem;
   font-family: 'Helvetica', sans-serif;
-  color: #EEE8D6;
+  color: #ffffff;
   background-color: #022933;
   font-family: "Josefin Sans", sans-serif; }
 
 .container {
   width: 80%;
   margin: 0 auto; }
+
+.media {
+  list-style: none; }
+  .media .item {
+    border-bottom: dotted;
+    margin-bottom: 20px; }
+    .media .item img {
+      border-color: red;
+      border-style: solid; }
+    .media .item a {
+      color: yellow;
+      text-decoration: none; }
+    .media .item .head {
+      font-size: 2rem; }
