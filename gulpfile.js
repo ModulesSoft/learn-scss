@@ -1,5 +1,5 @@
 const gulp = require("gulp"),
-  sass = require("gulp-sass"),
+  sass = require("gulp-sass")(require('node-sass')),
   sourcemaps = require("gulp-sourcemaps"),
   browserSync = require("browser-sync").create(),
   source = "./process/",

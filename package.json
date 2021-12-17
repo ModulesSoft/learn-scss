@@ -7,14 +7,14 @@
     "url": "https://github.com/planetoftheweb/sassEssentials.git"
   },
   "author": "Ray Villalobos",
+  "dependencies": {
+    "browser-sync": "^2.26.5"
+  },
   "devDependencies": {
     "gulp": "^4.0.2",
     "gulp-jshint": "^2.1.0",
-    "gulp-sass": "^4.0.2",
-    "gulp-sourcemaps": "^2.6.5",
-    "node-sass": "^4.12.0"
-  },
-  "dependencies": {
-    "browser-sync": "^2.26.5"
+    "gulp-sass": "^5.0.0",
+    "gulp-sourcemaps": "^3.0.0",
+    "node-sass": "^7.0.0"
   }
 }
