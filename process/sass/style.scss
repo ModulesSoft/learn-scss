@@ -2,6 +2,7 @@
 
  $offwhite: #EEE8D6;
  $darkblue: #022933;
+ $red: #dd2d2d;
 
  $text-color:$offwhite;
  $background-color:$darkblue;
@@ -10,7 +11,10 @@
  html {
   font-size: 62.5%;
 }
-
+h1,h2,h3,h4,h5,h6{
+  font-family: $roboto-font;
+  color:$red;
+}
 body {
   margin: 0;
   padding: 0;
