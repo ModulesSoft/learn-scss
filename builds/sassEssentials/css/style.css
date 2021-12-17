@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@200&family=Roboto:wght@300&display=swap");
 html {
   font-size: 62.5%; }
 
@@ -7,7 +8,8 @@ body {
   font-size: 1.8rem;
   font-family: 'Helvetica', sans-serif;
   color: #EEE8D6;
-  background-color: #022933; }
+  background-color: #022933;
+  font-family: "Josefin Sans", sans-serif; }
 
 .container {
   width: 80%;
