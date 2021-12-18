@@ -52,3 +52,24 @@ body {
   .bridge h1 {
     color: aqua;
     width: 100%; }
+
+.default, .cool, .hot {
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px; }
+
+.default {
+  background-color: #af5c2c;
+  /* Green */ }
+
+.cool {
+  background-color: #4CAF50;
+  /* Green */ }
+
+.hot {
+  background-color: #af4c65;
+  /* Green */ }
