@@ -1,0 +1,5 @@
+@mixin backgroundImage($image,$height:100vh,$pos: center center){
+    background-image: url($image);
+    height: $height;
+    background-position: $pos;
+}

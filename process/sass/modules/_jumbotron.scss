@@ -1,0 +1,14 @@
+.jumbotron {
+    h1 {
+        color: $yellow;
+    }
+    @include backgroundImage("/images/bridge.jpg",600px,top center)
+}
+.bridge{
+    h1{
+        color : aqua;
+        // background-color: rgba($color: #000000, $alpha: 0.5);
+        width: 100%;
+    }
+    @include backgroundImage("/images/bridge.jpg",300px,center bottom)
+}
