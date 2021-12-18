@@ -28,7 +28,12 @@ body {
   list-style: none; }
   .media .item {
     border-bottom: dotted;
-    margin-bottom: 20px; }
+    margin-bottom: 20px;
+    padding: 10px; }
+    .media .item:hover {
+      background-color: #13265a; }
+    .media .item:last-of-type {
+      border: none; }
     .media .item img {
       border-color: #dd2d2d;
       border-style: solid; }
@@ -37,6 +42,8 @@ body {
       text-decoration: none; }
     .media .item .head {
       font-size: 2rem; }
+      #typography .media .item .head {
+        color: blue; }
 
 .jumbotron {
   background-image: url("/images/bridge.jpg");

@@ -1,8 +1,15 @@
 .media {
     list-style: none;
     .item {
+        &:hover{
+            background-color: $selected;
+        }
+        &:last-of-type{
+            border:none;
+        }
         border-bottom: dotted;
         margin-bottom: 20px;
+        padding:10px;
         img {
             border-color: $red;
             border-style: solid;
@@ -13,6 +20,9 @@
         }
         .head {
             font-size: 2rem;
+            #typography &{
+                color:blue;
+            }
         }
     }
 }
