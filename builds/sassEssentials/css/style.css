@@ -8,8 +8,34 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: Roboto, sans-serif;
-  color: #dd2d2d; }
+  font-family: Roboto, sans-serif; }
+
+h1 {
+  color: blue; }
+
+h2 {
+  color: orange; }
+
+h3 {
+  color: yellow; }
+
+h4 {
+  color: green; }
+
+h5 {
+  color: silver; }
+
+h6 {
+  color: purple; }
+
+h7 {
+  color: red; }
+
+h8 {
+  color: khaki; }
+
+h9 {
+  color: brown; }
 
 body {
   margin: 0;

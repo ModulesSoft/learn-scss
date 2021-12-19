@@ -1,6 +1,8 @@
 html {
     font-size: 62.5%;
 }
+
+$colors-array : blue,orange,yellow,green,silver,purple,red,khaki,brown;
 h1,
 h2,
 h3,
@@ -8,7 +10,13 @@ h4,
 h5,
 h6 {
     font-family: $roboto-font;
-    color: $red;
+    // color: $red;
+}
+@for $i from 1 through length($colors-array){
+    h#{$i} {
+        color : nth($colors-array,$i);
+        // @debug #{nth($colors-array,$i)};
+    }
 }
 body {
     margin: 0;
