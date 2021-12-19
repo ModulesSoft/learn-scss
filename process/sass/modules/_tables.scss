@@ -1,6 +1,7 @@
 $color-body-row: rosybrown;
 table {
     width: 100%;
+    font-family: nth($roboto-font,2);
     > thead {
         background-color: black;
     }

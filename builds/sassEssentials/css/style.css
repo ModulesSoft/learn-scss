@@ -8,7 +8,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: "Roboto", sans-serif;
+  font-family: Roboto, sans-serif;
   color: #dd2d2d; }
 
 body {
@@ -86,12 +86,13 @@ body {
   float: left; }
 
 .grid img {
-  border-radius: 10px;
+  border-radius: 20px;
   max-width: 100%;
   display: block; }
 
 table {
-  width: 100%; }
+  width: 100%;
+  font-family: sans-serif; }
   table > thead {
     background-color: black; }
   table > tbody > tr:nth-child(even) {

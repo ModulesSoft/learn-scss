@@ -1,10 +1,11 @@
+$roundness : 20px 0 20px 0;
 .grid{
     .item{
         @include imageGrid(3);
         float: left;
     }
     img{
-        border-radius: 10px;
+        border-radius: nth($roundness,1);
         max-width: 100%;
         display: block;
     }
