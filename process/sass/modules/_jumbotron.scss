@@ -35,9 +35,14 @@
 // background-color: #af4c65; /* Green */
 // }
 $btn-names: "hot","cool","default";
-@each $name in $btn-names{
-    .#{$name}{
+$btn-colors:(
+    hot : red,
+    cool:blue,
+    default:black
+);
+@each $key,$value in $btn-colors{
+    .#{$key}{
         @extend %btn;
-        background-color: rgba(random(255),random(255),random(255), random(1.0))
+        background-color: $value;
     }
 }

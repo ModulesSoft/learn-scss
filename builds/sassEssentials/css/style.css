@@ -96,13 +96,13 @@ body {
   font-size: 16px; }
 
 .hot {
-  background-color: #1a677e; }
+  background-color: red; }
 
 .cool {
-  background-color: #c266ee; }
+  background-color: blue; }
 
 .default {
-  background-color: #1b4b6c; }
+  background-color: black; }
 
 .grid .item {
   float: left; }
