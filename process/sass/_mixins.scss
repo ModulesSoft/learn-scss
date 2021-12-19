@@ -1,15 +1,19 @@
-@mixin backgroundImage($image,$height:100vh,$pos: center center){
+@mixin backgroundImage($image, $height: 100vh, $pos: center center) {
     background-image: url($image);
     height: $height;
     background-position: $pos;
 }
 
-@mixin imageGrid($cols){
-    width: 100% / $cols;
+@mixin imageGrid($cols) {
+    @if ($cols<4) {
+        width: 100% / $cols;
+    }@else{
+        width: 25%;
+    }
 }
 
-@mixin minWidth($pixels){
-    @media(min-width: $pixels){
+@mixin minWidth($pixels) {
+    @media (min-width: $pixels) {
         @content;
     }
 }
