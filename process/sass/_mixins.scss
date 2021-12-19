@@ -7,3 +7,9 @@
 @mixin imageGrid($cols){
     width: 100% / $cols;
 }
+
+@mixin minWidth($pixels){
+    @media(min-width: $pixels){
+        @content;
+    }
+}

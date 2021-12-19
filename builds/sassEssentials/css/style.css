@@ -82,8 +82,10 @@ body {
   /* Green */ }
 
 .grid .item {
-  width: 33.33333%;
   float: left; }
+  @media (min-width: 500px) {
+    .grid .item {
+      width: 33.33333%; } }
 
 .grid img {
   border-radius: 20px;
