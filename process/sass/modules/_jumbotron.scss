@@ -21,16 +21,23 @@
     display: inline-block;
     font-size: 16px;
 }
-.default{
-    @extend %btn;
-    background-color: #af5c2c; /* Green */
-}
-.cool{
-    @extend %btn;
-background-color: #4CAF50; /* Green */
-}
-.hot{
-    @extend %btn;
+// .default{
+//     @extend %btn;
+//     background-color: #af5c2c; /* Green */
+// }
+// .cool{
+//     @extend %btn;
+// background-color: #4CAF50; /* Green */
+// }
+// .hot{
+//     @extend %btn;
 
-background-color: #af4c65; /* Green */
+// background-color: #af4c65; /* Green */
+// }
+$btn-names: "hot","cool","default";
+@each $name in $btn-names{
+    .#{$name}{
+        @extend %btn;
+        background-color: rgba(random(255),random(255),random(255), random(1.0))
+    }
 }

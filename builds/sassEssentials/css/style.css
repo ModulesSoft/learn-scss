@@ -86,7 +86,7 @@ body {
     color: aqua;
     width: 100%; }
 
-.default, .cool, .hot {
+.hot, .cool, .default {
   border: none;
   color: white;
   padding: 15px 32px;
@@ -95,17 +95,14 @@ body {
   display: inline-block;
   font-size: 16px; }
 
-.default {
-  background-color: #af5c2c;
-  /* Green */ }
+.hot {
+  background-color: #1a677e; }
 
 .cool {
-  background-color: #4CAF50;
-  /* Green */ }
+  background-color: #c266ee; }
 
-.hot {
-  background-color: #af4c65;
-  /* Green */ }
+.default {
+  background-color: #1b4b6c; }
 
 .grid .item {
   float: left; }
