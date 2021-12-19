@@ -1,0 +1,21 @@
+$color-body-row: rosybrown;
+table {
+    width: 100%;
+    > thead {
+        background-color: black;
+    }
+    > tbody > tr {
+        &:nth-child(even) {
+            background: lighten($color-body-row,10%);
+        }
+        &:hover {
+            background-color: saturate($color-body-row, 50%);
+        }
+        > td,
+        > th {
+            padding: 10px;
+            border-bottom: solid;
+            border-color: darken($color: $color-body-background, $amount: 20%);
+        }
+    }
+}

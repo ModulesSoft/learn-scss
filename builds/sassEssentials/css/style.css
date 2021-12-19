@@ -80,3 +80,26 @@ body {
 .hot {
   background-color: #af4c65;
   /* Green */ }
+
+.grid .item {
+  width: 33.33333%;
+  float: left; }
+
+.grid img {
+  border-radius: 10px;
+  max-width: 100%;
+  display: block; }
+
+table {
+  width: 100%; }
+  table > thead {
+    background-color: black; }
+  table > tbody > tr:nth-child(even) {
+    background: #cfafaf; }
+  table > tbody > tr:hover {
+    background-color: #e96262; }
+  table > tbody > tr > td,
+  table > tbody > tr > th {
+    padding: 10px;
+    border-bottom: solid;
+    border-color: black; }
